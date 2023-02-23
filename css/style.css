@@ -1,0 +1,266 @@
+.fondo-footer {
+  background-color: rgb(214, 140, 1);
+}
+
+.footer-vehiculos {
+  margin-top: -220px;
+}
+
+.fondo-footer-2 {
+  margin-left: -35px;
+  margin-right: -35px;
+  margin-top: 60px;
+  margin-bottom: -7px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(163, 106, 0);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.fa-facebook {
+  background-color: rgb(214, 140, 1);
+}
+
+.fa-instagram {
+  background-color: rgb(214, 140, 1);
+}
+
+.fa-whatsapp {
+  background-color: rgb(214, 140, 1);
+}
+
+header .nav-item {
+  -webkit-animation: swirl-in-fwd 0.6s ease-out both;
+  animation: swirl-in-fwd 0.6s ease-out both;
+}
+header .nav-item .nav-item1 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+header .nav-item .nav-item2 {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+header .nav-item .nav-item3 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+header .nav-item .nav-item4 {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+header .nav-item .nav-item5 {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.texto-nav {
+  font-size: 20px;
+}
+
+.texto-carrusel {
+  color: rgb(205, 134, 2);
+}
+
+.TITULO {
+  font-size: 40px;
+}
+
+.PARRAFO-TITULO {
+  font-size: 20px;
+}
+
+.boton-contactar {
+  background-color: orange;
+}
+
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+.hero {
+  background-image: url(../contenido-multimedia/3micros-edit.png);
+  background-repeat: no-repeat;
+  height: 90vh;
+  margin-top: -2vh;
+}
+
+/* PAGINA-3-ZONAS */
+.contacte-con-nosotros {
+  color: rgb(166, 108, 0);
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+}
+
+.texto-zonas-mapas {
+  background-color: rgb(228, 148, 0);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  justify-content: center;
+  color: white;
+  display: flex;
+  left: 10px;
+}
+
+.contactar-zona-mapa {
+  background-color: rgb(228, 148, 0);
+  color: white;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* PAGINA-5-PERSONAL */
+.borde-personal {
+  border-bottom: solid orange 1vh;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .info-nav {
+    display: grid;
+  }
+  .tituloraul {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 30px;
+  }
+  .titulo-principal {
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .telefono {
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 10px;
+  }
+  .email {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .atencion {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .pedir-presupuesto-boton {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 20px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .TITULO {
+    font-size: 16px;
+  }
+  .PARRAFO-TITULO {
+    font-size: 14px;
+  }
+  .boton {
+    font-size: 12px;
+  }
+  .titulo-principal {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .texto-carrusel {
+    text-align: center;
+  }
+  .text-warning {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 10px;
+  }
+  .pedir-presupuesto-boton {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 20px;
+  }
+  .contactar-redes {
+    margin-top: 60px;
+  }
+  .fondo-footer-2 {
+    margin-top: 1px;
+  }
+  .solicitar-informacion {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .TITULO {
+    font-size: 10px;
+  }
+  .PARRAFO-TITULO {
+    font-size: 8px;
+  }
+  .boton {
+    font-size: 6px;
+  }
+  .texto-carrusel {
+    text-align: center;
+  }
+  .text-warning {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 10px;
+  }
+  .pedir-presupuesto-boton {
+    text-align: center;
+    border-top: solid 1px;
+    border-color: orange;
+    padding-top: 20px;
+  }
+  .contactar-redes {
+    margin-top: 60px;
+  }
+  .fondo-footer-2 {
+    margin-top: 1px;
+  }
+  .solicitar-informacion {
+    margin-top: 30px;
+  }
+}
+.boton-fotos-vehiculo {
+  margin-top: -90px;
+}
+
+.columna-micro {
+  margin-bottom: 250px;
+}
+
+.boton-contactar {
+  margin-bottom: -50px;
+}/*# sourceMappingURL=estilos.css.map */
