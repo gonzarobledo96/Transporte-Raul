@@ -1,0 +1,83 @@
+/* LOGO DE WHATSAPP */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#19b552;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+  transition: 0.4s;
+  transform: scale(1.2)
+}
+.my-float{
+	margin-top:16px;
+}
+
+.envio-gratis{
+    background-color:rgb(255, 199, 88);
+    font-size: 20px;
+  }
+
+/* BARRA DE NAVEGACION */
+.fondo-del-nav{
+    background-color: #ffffff;
+  }
+  .fondo-del-nav:hover{
+    background-color: rgb(186, 186, 186);
+  }
+  .fondo-nav{
+      margin-bottom: -45px;
+  }
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item a:hover   {
+    color: rgb(255, 199, 88);
+}
+.navbar-brand   {
+    height: 50px;
+    width: 150px;
+}
+
+.nav-usuarios-de-gnc{
+    background-color:rgb(255, 199, 88);
+    border: solid 3px;
+    border-color:rgb(186, 186, 186);
+}
+
+
+/* POR QUE AUTOPARTES GNC LURO */
+.por-que-color{
+  color:rgb(255, 199, 88);
+}
+.h2{
+    display:inline-block;
+    font-size: 25px;
+}
+.img    {
+    margin-left: 100px;
+    width: 60px;
+    }
+.tamaño-texto-porqueAutopartesgncluro{
+    font-size: 15px;
+}
+.subtitulo-gncLuro{
+    font-size: 15px;
+}
