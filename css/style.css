@@ -219,7 +219,6 @@ ul li .diseño-texto-navbar {
     transition: 0.5s;
     z-index: 1;
     letter-spacing: 0px;
-    
 }
 ul li .diseño-texto-navbar:before {
     content: "";
@@ -263,7 +262,6 @@ ul li .diseño-texto-navbar:hover:after {
     background-position: center center;
     height: 100vh;
 }
-
 
 
 /* ***************************/
@@ -328,6 +326,7 @@ ul li .diseño-texto-navbar:hover:after {
   /* NUESTROS SERVICIOS */
   /**********************/
   .titulo-nuestros-servicios {
+    margin-top: 3em;
     padding-top: 2em;
     background-color: #f2f2f2;
     padding-bottom: 2em;
@@ -336,7 +335,6 @@ ul li .diseño-texto-navbar:hover:after {
     color: #cc6e34;
 }
 .titulo-nuestros-servicios h2{
-    /* margin-top: 3em; */
     font-size: 44px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
@@ -396,6 +394,78 @@ ul li .diseño-texto-navbar:hover:after {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
   }
+.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS{
+    background: url(../imagenes/vv\ -\ copia\ -\ copia.jpeg) ;
+background-size: cover;
+color: white;
+padding: 100px;
+height: 75vh;
+margin-bottom: 10em;
+}
+.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS .btn{
+    margin-top: 40px;
+}
+.btn.btn-primary {
+    background: #f7931d;
+    border-color: #F16521;
+    transition: 0.5s;
+    color: rgb(243, 243, 243);
+    padding: 10px 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.33;
+    border-radius: 6px;
+    border-width: 0;
+    border-bottom-width: 3px;
+}
+.btn.btn-primary:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    background: #f7931d;
+    border-color: #F16521;
+}
+
+
+/*******************************************/
+/* CODIGO DE CONDUCTA PARA MAYOR SEGURIDAD */
+/*******************************************/
+.fondo-codigo-conducta {
+    background-color: #ff914d;
+}
+.informacionUtil {
+    font-size: 30px;
+    color: white;
+}
+.parrafo-informacionUtil {
+    color: white;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.fondo-informacionUtil {
+    background-color: #ff914d;
+}
+.conducta-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.conducta-container svg {
+    color: #ffffff;
+    width: 850px;
+    height: auto;
+    margin-right: 50px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container svg {
+    max-width: 100%;
+    height: auto;
+}
 
 
 /**********************/
@@ -463,49 +533,6 @@ ul li .diseño-texto-navbar:hover:after {
     height: 100%;
     border-radius: 15px;
   }
- 
-
-/*******************************************/
-/* CODIGO DE CONDUCTA PARA MAYOR SEGURIDAD */
-/*******************************************/
-.fondo-codigo-conducta {
-    background-color: #ff914d;
-}
-.informacionUtil {
-    font-size: 30px;
-    color: white;
-}
-.parrafo-informacionUtil {
-    color: white;
-    font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    margin-left: 20px;
-}
-.fondo-informacionUtil {
-    background-color: #ff914d;
-}
-.conducta-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.conducta-container svg {
-    color: #ffffff;
-    width: 850px;
-    height: auto;
-    margin-right: 50px;
-}
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.container svg {
-    max-width: 100%;
-    height: auto;
-}
 
 
 /***********************************/
@@ -675,8 +702,16 @@ ul li .diseño-texto-navbar:hover:after {
 .dropdown-menu li{
 font-weight: 600;
 font-size: 1em;
+padding: 5px;
 }
-
+.dropdown-menu {
+    overflow: hidden;
+  }
+  .dropdown-menu a:hover,
+  .dropdown-menu a:focus {
+    background-color:  rgba(94, 128, 0, 0.568);
+    color: #ffffff;
+  }
 
 /*****************************/
 /********** FOOTER **********/
@@ -868,6 +903,7 @@ footer {
     padding-top: 2em;
     margin-bottom: -150px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 .contenedor-unidad {
     display: flex;
@@ -890,6 +926,7 @@ footer {
 }
 .titulo-unidad{
     font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 .gallery {
     display: flex;
