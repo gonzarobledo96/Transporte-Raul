@@ -168,9 +168,25 @@ body::-webkit-scrollbar-thumb:hover {
 /* *********************/
 /* seccion I N I C I O */
 /* *********************/
-.fondo-superiro-navbar {
-    background-color: rgb(255, 147, 59);
-}
+.menu {
+    background-color:rgb(255, 147, 59);
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .menu ol {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li {
+    display: inline-block;
+  }
+  .menu a {
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
 .hover-fondo-superior{
     font-size: 14px;
     transition: 0.5s;
@@ -179,17 +195,10 @@ body::-webkit-scrollbar-thumb:hover {
     color: black;
     transition: 0.5s;
 }
-.submenu-principal {
-    font-size: .60em;
-    letter-spacing: 1px;
-}
-.posicion-letras {
-    margin-left: -70px;
-    font-size: 30px;
-}
-.logo-tutuca {
+.logo-transporte-escolar {
     margin-top: -10px;
 }
+/* NAVBAR-PRINCIPAL */
 .posicion-nav {
     justify-content: center;
     margin-bottom: -10px;
@@ -713,6 +722,7 @@ padding: 5px;
     color: #ffffff;
   }
 
+
 /*****************************/
 /********** FOOTER **********/
 /***************************/
@@ -773,7 +783,6 @@ footer {
 .todos-los-derechos-reservados {
     background-color: #ff914d;
 } 
-
 .logos-contacto ul li {
     margin-right: auto;
   }
@@ -840,12 +849,9 @@ footer {
     color: #ff914d;
     transition: 0.4s;
 }
-
   .todos-los-derechos-reservados {
     background-color: #ff914d;
 }
-
-
 
 
 /*****************/
@@ -985,6 +991,105 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.media.service-box {
+    margin: 25px 0;
+}
+.media.service-box .pull-left {
+    margin-right: 20px;
+}
+.media-left, .media>.pull-left {
+    padding-right: 10px;
+}
+.pull-left {
+    float: left!important;
+}
+.media.service-box .pull-left > i {
+    font-size: 24px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    width: 64px;
+    border-radius: 100%;
+    color: #4861ac;
+    box-shadow: inset 0 0 0 1px #d7d7d7;
+    -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
+    transition: background-color 400ms, background-color 400ms;
+    position: relative;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #272727;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+.media-left, .media-right, .media-body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* *******************************/
 /********* MEDIA CUIRE **********/
 /* *****************************/
@@ -1031,7 +1136,7 @@ footer {
     .posicion-letras {
         margin-left: -70px;
     }
-    .logo-tutuca {
+    .logo-transporte-escolar {
         margin-top: 0px;
     }
     .submenu-principal {
@@ -1108,7 +1213,7 @@ footer {
     .posicion-letras {
         margin-left: -70px;
     }
-    .logo-tutuca {
+    .logo-transporte-escolar {
         margin-top: 0px;
     }
     .submenu-principal {
@@ -1142,29 +1247,189 @@ footer {
     }
 }
 
-@media screen and (min-width:320px) and (max-width: 480px) {
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    /********************/
+    /* INICIO-SUPERIOR */
+    /******************/
+  .fondo-superiro-navbar {
+    padding: 5px;
+}
+.hover-fondo-superior:hover {
+    color: black;
+    transition: 0.5s;
+}
+.logo-transporte-escolar {
+    margin-top: 10px;
+}
+.inicio {
+    background: url("../imagenes/fondo-pagina-principal.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+}
+/* ***************************/
+/* TEXTO DE IMAGEN PRINCIPAL */
+/* ***************************/
+.inicio .contenido .presentacion {
+    height: 50vh;
+}
     .linea-presentacion {
-        font-size: 30px;
+        font-size: 20px;
         color: rgba(255, 255, 255, 0.637);
     }
     .linea-presentacion2 {
         margin-top: -40px;
-        font-size: 30px;
+        font-size: 20px;
         color: rgba(255, 255, 255, 0.637);
     }
     .inicio .contenido .presentacion .bienvenida {
-        font-size: 20px;
+        font-size: 15px;
     }
     .inicio .contenido .presentacion h2 {
-        font-size: 30px;
-        margin-bottom: 25px;
+        font-size: 20px;
+        margin-bottom: 20px;
         text-align: center;
     }
     .descripcion {
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
     }
+    .inicio .contenido .presentacion a {
+        font-size: 10px;
+        margin: 5px;
+        padding: 5px 10px;
+    }
+
+ /**********************/
+  /* NUESTROS SERVICIOS */
+  /**********************/
+/* .titulo-nuestros-servicios {
+    margin-top: 3em;
+    padding-top: 2em;
+    background-color: #f2f2f2;
+    padding-bottom: 2em;
+}
+.titulo-nuestros-servicios i{
+    color: #cc6e34;
+}
+.titulo-nuestros-servicios h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo-nuestros-servicios p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px; 
+} */
+#services {
+    padding: 100px 0 75px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-header {
+    margin-bottom: 50px;
+}
+.section-header .section-title {
+    font-size: 44px;
+    color: #272727;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS{
+    background: url(../imagenes/vv\ -\ copia\ -\ copia.jpeg) ;
+background-size: cover;
+color: white;
+padding: 100px;
+height: 75vh;
+margin-bottom: 10em;
+}
+.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS .btn{
+    margin-top: 40px;
+}
+.btn.btn-primary {
+    background: #f7931d;
+    border-color: #F16521;
+    transition: 0.5s;
+    color: rgb(243, 243, 243);
+    padding: 10px 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.33;
+    border-radius: 6px;
+    border-width: 0;
+    border-bottom-width: 3px;
+}
+.btn.btn-primary:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+    background: #f7931d;
+    border-color: #F16521;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     /* ***************************/
     /****** SOBRE NOSOTROS *******/
@@ -1187,7 +1452,6 @@ footer {
         line-height: 1.5;
         margin-bottom: 20px;
     }
-
     /*******************************************/
     /* CODIGO DE CONDUCTA PARA MAYOR SEGURIDAD */
     /*******************************************/
@@ -1214,52 +1478,5 @@ footer {
         font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         margin-left: 20px;
-    }
-
-    /********************/
-    /* INICIO-SUPERIOR */
-    /******************/
-    .hover-fondo-superior:hover {
-        color: black;
-        transition: 0.5s;
-    }
-    .submenu-principal {
-        font-size: .60em;
-        letter-spacing: 1px;
-    }
-    .posicion-letras {
-        margin-left: -70px;
-    }
-    .logo-tutuca {
-        margin-top: 0px;
-    }
-    .submenu-principal {
-        font-size: .60em;
-        letter-spacing: 1px;
-    }
-    .diseño-ig {
-        margin-top: 5px;
-        color: #E1306C;
-        font-size: 30px;
-        margin-left: 50px;
-    }
-    .fa-facebook {
-        margin-top: 5px;
-        color: #3b5998;
-        font-size: 30px;
-        margin-left: 50px;
-    }
-    .diseño-ig:hover {
-        color: rgb(255, 147, 59);
-        transition: 0.4s;
-        transform: scale(1.2);
-    }
-    .fa-facebook:hover {
-        color: rgb(255, 147, 59);
-        transition: 0.4s;
-        transform: scale(1.2);
-    }
-    .lineaDerecha{
-        border-right: solid 0px;
     }
 }
