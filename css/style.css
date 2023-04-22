@@ -357,11 +357,10 @@ ul li .diseño-texto-navbar:hover:after {
     margin-inline-start: 0px;
     margin-inline-end: 0px; 
 }
-  .container-informacion {
+.container-informacion {
     display: flex;
     flex-wrap: wrap;
    padding: 4em;
-   margin-bottom: 4em;
 }
 .column {
     flex: 50%;
@@ -374,10 +373,9 @@ ul li .diseño-texto-navbar:hover:after {
     box-sizing: border-box;
 }
 .icono {
-    display: inline-block;
-    vertical-align: middle; /* opcional: para alinear verticalmente */
-    font-size: 30px; /* ajusta el tamaño del icono a 30px */
-  }
+    float: left!important;
+    margin-right: 20px;
+}
 .icono i{
     font-size: 24px;
     height: 64px;
@@ -389,27 +387,38 @@ ul li .diseño-texto-navbar:hover:after {
     box-shadow: inset 0 0 0 1px rgb(255, 147, 59);
     -webkit-box-shadow: inset 0 0 0 1px rgb(255, 147, 59);
 }
-  .titulo-y-parrafo {
-    display: inline-block;
-    vertical-align: middle; /* opcional: para alinear verticalmente */
-    margin-left: 10px; /* opcional: para separar el texto del icono */
-  }
-  .titulo-y-parrafo h2{
+.posicion-de-icono-texto {
+    display: table-cell;
+    vertical-align: top;
+}
+  .posicion-de-icono-texto h4{
     font-size: 22px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
   }
-  .titulo-y-parrafo p{
+  .posicion-de-icono-texto p{
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
   }
+  .espacio-entre-informacion{
+    margin: 25px 0;
+}
 .ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS{
-    background: url(../imagenes/vv\ -\ copia\ -\ copia.jpeg) ;
+background: url(../imagenes/vv\ -\ copia\ -\ copia.jpeg) ;
 background-size: cover;
 color: white;
 padding: 100px;
 height: 75vh;
 margin-bottom: 10em;
+}
+.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS h2{
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 .ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS .btn{
     margin-top: 40px;
@@ -439,6 +448,7 @@ margin-bottom: 10em;
 /*******************************************/
 .fondo-codigo-conducta {
     background-color: #ff914d;
+    margin-bottom: 6em;
 }
 .informacionUtil {
     font-size: 30px;
@@ -484,6 +494,7 @@ margin-bottom: 10em;
     background: url(../imagenes/fondo-prueba.jpg);
     color: white;
     padding: 60px ;
+    margin-bottom: 6em;
   }
 .NUESTRAS-UNIDADES h2{
     font-size: 44px;
@@ -595,6 +606,7 @@ margin-bottom: 10em;
     background: url(../imagenes/fondo-prueba.jpg);
     color: white;
     padding: 100px ;
+    margin-bottom: 6em;
   }
 .contenedori h2{
     font-size: 44px;
@@ -659,7 +671,7 @@ margin-bottom: 10em;
     display: inline-block;
     width: 200px; /* ajusta el ancho de la imagen según tus necesidades */
     margin: 0 40px; /* margen horizontal de 10px y margen vertical de 0 */
-    margin-bottom: 10em;
+    margin-bottom: 6em;
   } 
   
 
@@ -679,7 +691,7 @@ margin-bottom: 10em;
     display: flex;
     justify-content: space-between;
   }
-  .col {
+  .columna-personal {
     flex: 1;
     margin: 10px;
   }
@@ -1001,95 +1013,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.media.service-box {
-    margin: 25px 0;
-}
-.media.service-box .pull-left {
-    margin-right: 20px;
-}
-.media-left, .media>.pull-left {
-    padding-right: 10px;
-}
-.pull-left {
-    float: left!important;
-}
-.media.service-box .pull-left > i {
-    font-size: 24px;
-    height: 64px;
-    line-height: 64px;
-    text-align: center;
-    width: 64px;
-    border-radius: 100%;
-    color: #4861ac;
-    box-shadow: inset 0 0 0 1px #d7d7d7;
-    -webkit-box-shadow: inset 0 0 0 1px #d7d7d7;
-    transition: background-color 400ms, background-color 400ms;
-    position: relative;
-}
-.fa, .fas {
-    font-weight: 900;
-}
-.fa, .far, .fas {
-    font-family: "Font Awesome 5 Free";
-}
-.fa, .fab, .fal, .far, .fas {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-}
-.media-heading {
-    margin-top: 0;
-    margin-bottom: 5px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
-    color: #272727;
-}
-h4, .h4 {
-    font-size: 18px;
-}
-.media-left, .media-right, .media-body {
-    display: table-cell;
-    vertical-align: top;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* *******************************/
 /********* MEDIA CUIRE **********/
 /* *****************************/
@@ -1323,136 +1246,64 @@ h4, .h4 {
         margin: 5px;
         padding: 5px 10px;
     }
-
  /**********************/
   /* NUESTROS SERVICIOS */
   /**********************/
-/* .titulo-nuestros-servicios {
-    margin-top: 3em;
-    padding-top: 2em;
-    background-color: #f2f2f2;
-    padding-bottom: 2em;
-}
-.titulo-nuestros-servicios i{
-    color: #cc6e34;
-}
 .titulo-nuestros-servicios h2{
-    font-size: 24px;
-    font-weight: 600;
-    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
 }
 .titulo-nuestros-servicios p{
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 20px;
-    margin-inline-end: 20px; 
-} */
-#services {
-    padding: 100px 0 75px;
+    font-size: 16px;
 }
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.section-header {
-    margin-bottom: 50px;
-}
-.section-header .section-title {
-    font-size: 44px;
-    color: #272727;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 20px;
-    margin: 0 0 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS{
+.container-informacion {
+    flex-direction: column;
+    padding: 5px;
+    padding-top: 2em;
+  }
+  .column,
+  .column2 {
+    flex: 10%;
+  }
+  .ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS{
     background: url(../imagenes/vv\ -\ copia\ -\ copia.jpeg) ;
-background-size: cover;
-color: white;
-padding: 100px;
-height: 75vh;
-margin-bottom: 10em;
-}
-.ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS .btn{
-    margin-top: 40px;
-}
-.btn.btn-primary {
-    background: #f7931d;
-    border-color: #F16521;
-    transition: 0.5s;
-    color: rgb(243, 243, 243);
-    padding: 10px 16px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.33;
-    border-radius: 6px;
-    border-width: 0;
-    border-bottom-width: 3px;
-}
-.btn.btn-primary:hover {
-    transition: 0.5s;
-    transform: scale(1.2);
-    background: #f7931d;
-    border-color: #F16521;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* ***************************/
-    /****** SOBRE NOSOTROS *******/
-    /* ***************************/
-    .fondo-sobreNosotros {
-        background-color: #f3f3f3;
+    background-size: cover;
+    color: white;
+    padding: 70px;
+    height: 0vh;
+    margin-bottom: 5em;
     }
-    .sobre-nosotros-content {
-        padding: 40px;
-        text-align: center;
+    .ubicacion{
+        margin-top:-60px;
     }
-    .sobre-nosotros h2 {
-        font-size: 2rem;
-        color: #333;
-        margin-bottom: 20px;
+    .ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS h2{
+        font-size: 14px;
     }
-    .sobre-nosotros p {
-        font-size: 1.0rem;
-        color: #666;
-        line-height: 1.5;
-        margin-bottom: 20px;
+    .ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS p{
+        font-size: 8px;
     }
-    /*******************************************/
+    .ESTAS-INTERESADO-EN-ALGUNO-DE-NUESTROS-SERVICIOS .btn{
+        margin-top: 0px;
+    }
+    .btn.btn-primary {
+        font-size: 8px;
+        background: #f7931d;
+        border-color: #F16521;
+        transition: 0.5s;
+        color: rgb(243, 243, 243);
+        padding: 5px 11px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.33;
+        border-radius: 6px;
+        border-width: 0;
+        border-bottom-width: 3px;
+    }
+    .btn.btn-primary:hover {
+        transition: 0.5s;
+        transform: scale(1.2);
+        background: #f7931d;
+        border-color: #F16521;
+    }
+/*******************************************/
     /* CODIGO DE CONDUCTA PARA MAYOR SEGURIDAD */
     /*******************************************/
     .conducta-container {
@@ -1479,4 +1330,89 @@ margin-bottom: 10em;
         font-weight: 500;
         margin-left: 20px;
     }
+/**********************/
+/* NUESTRAS UNIDADES */
+/********************/
+.NUESTRAS-UNIDADES {
+    padding: 40px ;
+  }
+  .NUESTRAS-UNIDADES h2{
+    font-size: 34px;
+}
+.imagen-hover {
+    margin-bottom: 2em;
+  }
+.columna-unidades{
+    display: block;
+}
+/***********************************/
+/****** NUESTRA TRAYECTORIA *******/
+/*********************************/
+.titulo-y-parrafo .linea-nuestra-trayectoria{
+    font-size: 30px;
+}
+.titulo-y-parrafo .parrafo-2{
+    font-size: 1em;
+    margin-top: -80px;
+    padding-bottom: 3em;
+}
+/*********************/
+/* NUESTROS VALORES */
+/*******************/
+.contenedori {
+    padding: 60px ;
+  }
+.contenedori h2{
+    font-size: 34px;
+}
+.contenedori .p-valores{
+    font-size: 20px;
+}
+  .iconos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .icono-valores {
+    width: 15%;
+  }
+.icono-valores h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+.icon-circle {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 2px solid #f7931d;
+    background-color: f7931d;
+    border-radius: 100px;
+    position: relative;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }
