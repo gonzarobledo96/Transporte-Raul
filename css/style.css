@@ -870,7 +870,7 @@ footer {
 /* PAGINA UNIDAD */
 /*****************/
 .fondo-unidad-lucas {
-    background: url("../imagenes/micro-lucas/micro-lucas\(2\)-FONDO-UNIDAD.jpeg");
+    background: url("../imagenes/micro-lucas/lucas-fondo-unidad.jpeg");
     background-size: cover;
     background-position: center center;
 }
@@ -1300,17 +1300,16 @@ font-size: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 120px;
+  margin: 7em;
   margin-top: 10em;
 }
 /* otras unidades */
 .contenedor-unidad {
   display: flex;
-  margin: 120px;
+  margin: 7em;
   margin-top: 20px;
 }
 }
-
 
 @media screen and (min-width:481px) and (max-width: 768px) {
     /********************/
@@ -1608,13 +1607,13 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 50px;
+  margin: 5em;
   margin-top: 10em;
 }
 /* otras unidades */
 .contenedor-unidad {
   display: flex;
-  margin: 1.5em;
+  margin: 5em;
   margin-top: 20px;
 }
 }
@@ -1894,7 +1893,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 50px;
+  margin: 2em;
   margin-top: 10em;
 }
 /* otras unidades */
