@@ -1197,6 +1197,12 @@ font-size: 18px;
 color: #fff;
 padding: 10px;
 }
+/* .circle {
+    display: flex;
+    flex-direction:inherit;
+    align-items: center;
+    text-align: center;
+  } */
 .icon-circle {
   height: 84px;
   line-height: 84px;
