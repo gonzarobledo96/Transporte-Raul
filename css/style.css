@@ -566,6 +566,9 @@ margin-bottom: 10em;
    margin-top: -40px;
    overflow: hidden;
 }
+.titulo-y-parrafo p{
+  font-weight: 600;
+}
 .nuestra-tayectoria {
     padding: 0px;
     text-align: center;
